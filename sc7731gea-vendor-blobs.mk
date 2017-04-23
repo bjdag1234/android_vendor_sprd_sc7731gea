@@ -29,8 +29,7 @@ PROPRIETARY_FILES := \
     lib/libae.so \
     lib/libawb.so \
     lib/hw/camera.sc8830.so \
-    lib/hw/sensors.sc8830.so \
-    lib/libyasalgo.so
+    lib/hw/sensors.sc8830.so
 
 PRODUCT_COPY_FILES += \
-    $(foreach f,$(PROPRIETARY_FILES),vendor/samsung/grandprimeve3g/proprietary/$(f):system/$(f))
+    $(foreach f,$(PROPRIETARY_FILES),vendor/sprd/sc7731gea/proprietary/$(f):system/$(f))
